@@ -1,4 +1,4 @@
-FROM golang:1.9.3
+FROM golang:1.22.2
 
 RUN go get -u github.com/jstemmer/go-junit-report
 RUN go get -u github.com/smartystreets/goconvey
